@@ -11,7 +11,7 @@ a
 
 header
 {
-	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5))url(pic1.jpg);
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(pic1.jpg);
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
@@ -37,4 +37,9 @@ header
 	padding: 5px 20px;
 	font-family: "Roboto", sans-serif;
 	font-size: 15px;
+}
+
+.main-nav li.active a
+{
+	border: 1px solid white;
 }
