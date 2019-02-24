@@ -11,7 +11,7 @@ a
 
 header
 {
-	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(pic1.jpg);
+	background-image: url('pimg1.jpg');
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
@@ -55,7 +55,7 @@ header
 .main-nav li a:hover
 {
 	border: 1px solid white;
-	transition: all 0.5s ease-in;
+	transition: 0.5s ease-in;
 }
 
 h1
@@ -84,3 +84,71 @@ h1
 	text-transform: uppercase;
 }
 
+.fab
+{
+	color: white;
+	margin-right: 10px;
+	width: 40px;
+}
+
+.btn-one:hover
+{
+	background-color: darkorange;
+	transition: 0.5s ease;
+}
+
+.aAll
+{
+	float: left;
+	margin-top: 450px;
+	margin-left: 200px;
+	border: 1px solid white;
+	padding: 13px;
+	color: white;
+
+	transition: 0.5s ease;
+}
+
+.a1
+{
+	margin-left: 400px;
+}
+
+.a1:hover
+{
+	margin-left: 390px;
+	margin-top: 440px;
+	padding: 20px;
+	background-color: white;
+	color: #414141;
+	transition: 0.5s ease;
+}
+
+.a2
+{
+	margin-left: 100px;
+}
+
+.a2:hover
+{
+	margin-left: 90px;
+	margin-top: 440px;
+	padding: 20px;
+	background-color: white;
+	color: #414141;
+	transition: 0.5s ease;
+}
+
+.aboutText
+{
+	float: left;
+	margin-top: 375px;
+	margin-left: -350px;
+	color: white;
+}
+
+.btn-twitch
+{
+	background: none;
+	border: none;
+}
